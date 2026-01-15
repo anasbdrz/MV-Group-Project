@@ -1,0 +1,7 @@
+opencv-python
+ultralytics
+easyocr
+pytesseract
+torch
+numpy
+Pillow
