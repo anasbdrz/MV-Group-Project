@@ -75,3 +75,16 @@ Tesseract OCR Engine installed and added to System PATH.
 To run the ALPR system on your test dataset, run this script in your terminal:
     
     python Dual_ensemble.py
+
+
+## References & Credits:
+
+This project adapts and integrates the following tools and models:
+
+Detection: Ultralytics YOLOv11
+
+Enhancement: OpenCV Super-Resolution (EDSR)
+
+OCR 1: EasyOCR by JaidedAI
+
+OCR 2: Tesseract OCR
