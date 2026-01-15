@@ -11,6 +11,9 @@ GROUP MEMBERS
 3. MUHAMMAD IRFAN BIN ROSDIN 
 4. ANAS BIN BADRULZAMAN (2219945)
 
+Poster link: https://www.canva.com/design/DAG-a-JXG4M/6KoJf3zUET0PBgP0Z9SNaw/view?utm_content=DAG-a-JXG4M&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h885ed9ad59
+You could also download the poster in the repository
+
 ## Project Overview
 
 This project implements an Automatic License Plate Recognition (ALPR) system designed specifically for Malaysian vehicle plates. The system is built to handle challenging environmental variations such as low lighting, angled captures, and motion blur.   
