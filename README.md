@@ -13,10 +13,9 @@ GROUP MEMBERS
 
 ## Project Overview
 
-This project implements an Automatic License Plate Recognition (ALPR) system designed specifically for Malaysian vehicle plates. The system is built to handle challenging environmental variations such as low lighting, angled captures, and motion blur.
-    
-The Challenge
-    
+This project implements an Automatic License Plate Recognition (ALPR) system designed specifically for Malaysian vehicle plates. The system is built to handle challenging environmental variations such as low lighting, angled captures, and motion blur.   
+
+The Challenge   
 Standard ALPR systems often struggle with the non-standard fonts and reflective backgrounds of Malaysian plates, especially when captured from low-resolution CCTV feeds.
 
 ## Meaningful Innovation: Dual-Ensemble Methodology
@@ -43,10 +42,32 @@ Phase 4 (Dashboard): Generation of a visual dashboard showing the full frame, th
 Follow these steps to set up the environment:
 
 Prerequisites
-
 Python 3.8+
 Tesseract OCR Engine installed and added to System PATH.
 
-Steps
+## Steps
 
 1. Clone the Repository:
+
+       https://github.com/anasbdrz/MV-Group-Project.git
+       cd ALPR-Dual-Ensemble
+
+2. Install Dependencies:
+
+       pip install -r requirements.txt
+
+3. Model Weights:
+
+   Ensure there is best.pt in the models/ directory
+   You can download the EDSR_x4.pb from the link in the .txt given.
+
+4. Paths:
+
+   Make sure to change the path of the directory in each script in the src folder to match your system.
+
+
+## Usage
+
+To run the ALPR system on your test dataset, run this script in your terminal:
+    
+    python Dual_ensemble.py
