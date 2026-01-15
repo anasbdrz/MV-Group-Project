@@ -1,0 +1,1 @@
+Here is the link to download the EDSR_x4.pb https://github.com/Saafke/EDSR_Tensorflow/blob/master/models/EDSR_x4.pb. You can just download it directly from the GitHub.
